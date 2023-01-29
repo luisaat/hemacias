@@ -438,6 +438,25 @@ body::-webkit-scrollbar-thumb {
         font-family: DejaVu Sans Mono, monospace;
     }
 
+    /*ajustando o tamanho das imagens*/
+    .img1{
+        margin-left: 18%;
+        max-width:300px;
+        max-height:150px;
+        width: auto;
+        height: auto;
+    }
+    
+    .img2{
+        margin-left: 25%;
+        max-width:100px;
+        max-height:150px;
+        width: auto;
+        height: auto;
+    }
+
+
+
     .btn { /*botão sem mouse*/
         width: 6em;
         height: 2em;
@@ -459,7 +478,7 @@ body::-webkit-scrollbar-thumb {
     footer {
         background-color: #B02321;
         width: 150%;
-        height: 80%;
+        height: 45%;
         margin-left: -10%;
         position: absolute;
     
@@ -484,6 +503,7 @@ body::-webkit-scrollbar-thumb {
         text-align: center;
         font-family: DejaVu Sans Mono, monospace;
     }
+    
     
 
   }
