@@ -347,7 +347,7 @@ body::-webkit-scrollbar-thumb {
         justify-content: center;
         display: flex;
         margin-top: -6.3em;
-        font-size: 7px;
+        font-size: 30px;
         padding: 3px;
         flex-wrap: wrap;
     }
