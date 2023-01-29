@@ -399,8 +399,8 @@ body::-webkit-scrollbar-thumb {
         position: absolute;
         display: flex;
         left: 24.3vw;
-        top: -6.3em; 
-        height: 80%;
+        margin-top: 1px; 
+        height: 50%;
         width:60%;
     }
 
