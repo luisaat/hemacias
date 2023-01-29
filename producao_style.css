@@ -399,7 +399,7 @@ body::-webkit-scrollbar-thumb {
         position: absolute;
         display: flex;
         left: 24.3vw;
-        top: 3px; 
+        top: -6.3em; 
         height: 80%;
         width:60%;
     }
