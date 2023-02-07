@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./doencas.css" type="text/css">
+    <link rel="icon" href="./imagens/favicon/favicon(1).ico" type="image/x-icon">
+</head>
+
+<body class="fadeIn">
+    <a name="inicio"></a>
+    <header>
+        <section class="cabecalho">
+            <div class="sumario">
+              <input type="checkbox" id="check" onclick="alterar1()">
+              <label for="check" id="icone"><img src="./imagens/interacao/botao_menu.png" id="menutroca" /></label>
+              <div class="barra">
+                <nav>
+                  <a href="./nos.html">
+                    <div class="link">Quem Somos </div>
+                  </a>
+                  <a href="">
+                    <div class="link">Ideia do site</div>
+                  </a>
+                  <a href="">
+                    <div class="link">Fontes</div>
+                  </a>
+                </nav>
+              </div>
+          </section>
+          
+
+        <div class="mascote">
+            <a class="mascote" href="./index.html"> <img src="./imagens/mascote/hemaciopixel1.png"></a>
+        </div>
+          <section>
+            <nav>
+                <ul class="aprescabeca">
+    
+                    <a href="./producao.html">
+                        <div class="menutexto">Produção</div>
+                    </a>
+    
+                    <a href="./estruturas.html">
+                        <div class="menutexto">Estrutura</div>
+                    </a>
+    
+                    <a href="./funcao.html">
+                        <div class="menutexto">Função</div>
+                    </a>
+    
+                    <a href="./doencas.html">
+                        <div class="menutexto">Doenças</div>
+                    </a>
+    
+                    <a href="./quizz.html">
+                        <div class="menutexto">Quizz</div>
+                    </a>
+                </ul>
+            </nav>
+    
+        </section>
+    </header>
+    <input type="checkbox" id="check">
+    <label for="check" id="icone"><img src="./imagens/interacao/menu.png"/></label>
+    <div class="barra">	
+	    <nav>
+		    <a href="./nos.html"><div class="link">Quem Somos </div></a>
+		    <a href=""><div class="link">Ideia do site</div></a>
+		    <a href=""><div class="link">Fontes</div></a>
+	    </nav>
+    </div>
+    <main>
+        <div class="texto">
+            <!--botões de sessões(sumário)-->
+            <a name="inicio"></a>
+            <div class="sumario">
+
+                <a href="./funcao.html"><button class="btn">FUNÇÃO</button></a>
+
+                <a href="./index.html"><button class="btn">HOME</button></a> 
+
+                <a href="./estruturas.html"><button class="btn">ESTRUTURAS</button></a>
+            </div>
+
+            <!--inicio da página-->
+            <h1>DOENÇAS HEMATOLÓGICAS</h1>
+            <h2 style="padding-bottom: 4%;">Introdução</h2>
+            <p class="p1">
+                As doenças hematológicas comprometem a produção de componentes do sangue, logo, comprometendo as hemácias. Aqui, iremos ver um pouco mais sobre essas enfermidades e suas complicações ao corpo humano!
+            </p>
+            <p class="p1">
+                Você sabia que a anemia é uma doença hematológica? Alterações e carências no funcionamento das hemácias podem ocasionar algumas complicações; vamos ver abaixo algumas delas!
+            </p>
+            <img src="./imagens/conteudo/doencasexemplo.png" alt="Foto de pessoa" class="fotos">
+        </div>
+        <h2>HEMOLÍTICAS</h2>
+        <div class="p1">
+            Nas anemias hemolíticas as hemácias morrem ou são destruídas antes do seu ciclo normal de vida, que é de 120 dias. Desta forma a medula óssea não consegue repor todas as hemácias destruídas, causando a redução da presença destas células no sangue.
+
+            <ul><!--fiz esta lista para melhor organização das doenças-->
+                <li><span class="titulos_doencas">Anemia Falciforme</span>
+                    <div class="doenca_img">                        
+                        <img src="./imagens/conteudo/anemia_falciforme-300x164.jpg" alt="falciforme e padrão" class="img1">
+                        <p>A anemia falciforme tem origem hereditária, sua presença pode ocasionar uma expectativa de vida baixa, dor nos ossos e articulações e pele amarelada. Sua causa é a alteração nos glóbulos vermelhos (hemácias).
+                        </p>
+                </li>
+                <li><span class="titulos_doencas">Anemia Férrica</span>
+                    <div class="doenca_img">                        
+                        <img src="./imagens/conteudo/AnemiaFrote.jpg" alt="ausência de ferro" class="img1">
+                        <div class="paragrafo">
+                            <p>
+                                Tipo mais comum, causada pela ausência de ferro no organismo, pode se manifestar no inchaço na língua, unhas quebradiças (ou em formato de colher), rachaduras e úlceras no canto da boca e até desejo por consumir substâncias não alimentares (terra por exemplo)
+                            </p>
+                            <p>
+                                A falta de ferro acarreta na dificuldade na produção de hemácias, essas necessárias para que o corpo possa produzir hemoglobina.
+                            </p>
+                        </div>
+                </li>
+                <li><span class="titulos_doencas">Anemia perniciosa</span>
+                    <div class="doenca_img">                        
+                        <img src="./imagens/conteudo/vitamina_b12.png" alt="vitamina b12" class="img1">
+                        <div class="paragrafo">
+                            <p>
+                                Ocasionada pela incapacidade do corpo de produzir o "fator intrínseco", uma proteína ligada à vitamina B12. Esta carência geralmente está relacionada a questões alimentares.
+                            </p>
+                            <p>
+                                Entre seus sintomas, estão: fraqueza muscular, reflexos lentos e perda de equilíbrio.
+                            </p>
+                        </div>
+                </li>
+                <li><span class="titulos_doencas">Anemia aplástica</span>
+                    <div class="doenca_img">                        
+                        <img src="./imagens/conteudo/shutterstock_1440889277.jpg" alt="falciforme e padrão" class="img1">
+                        <div class="paragrafo">
+                            <p>
+                                Ocorre como reação a redução de células sanguíneas produzidas na medula óssea, por danos à células tronco. Pode ocasionar sangramento nasal, sangramento na gengiva, equimoses espontâneas, e o aumento da frequência e gravidade de infecções.
+                            </p>
+                        </div>
+                </li>
+            </ul>
+        </div>
+        <div id="voltar">
+            <a href="#inicio"><img src="./imagens/interacao/home.png"></a>
+        </div>
+    </main>
+    <footer>
+        <div class="logoif">
+            <img src="./imagens/backgrounds/IFRN horizontal branca.png" alt="logo">
+            <p>Desenvolvido por alunos do Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte</p>
+        </div>
+    </footer>
+</body>
+</html>
