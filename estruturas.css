@@ -334,12 +334,7 @@ li{
 }
 
 #video{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: #000004;
-    border-radius:50px ;
+    text-align: center;
 }
 @media (max-width: 580px), screen and (orientation: portrait){
  #video{
