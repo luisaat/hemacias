@@ -26,12 +26,7 @@ hr{
 }
 
 .video{
-    align-items: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: #000004;
+    text-align: center;
 }
 
 body{
